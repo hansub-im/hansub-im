@@ -48,30 +48,3 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=soft&color=0:0f2027,50:2c5364,100:0f2027&height=100&section=footer"/>
 </div>
-name: GitHub-Profile-3D-Contrib
-
-on:
-  schedule:
-    - cron: "0 18 * * *"   # 매일 UTC 18시(한국시간 새벽 3시) 자동 갱신
-  workflow_dispatch:        # 수동 실행 버튼 활성화
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Commit & Push
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add -A .
-          git commit -m "generate profile 3d contribution" || exit 0
-          git push
-
-### 🧱 3D Contribution
-![3D Contribution](./profile-3d-contrib/profile-green-animate.svg)
