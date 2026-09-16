@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0f2027,50:2c5364,100:0f2027&height=200&section=header&text=Hansub%20Im&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Backend%20Developer%20%7C%20Infra%20%26%20ERP&descAlignY=60&descColor=cfd8dc"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:0f2027&height=200&section=header&text=Hansub's%20GitHub&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Developer%20%7C%20Infra%20%26amp%3B%20ERP&descAlignY=55&descColor=cfd8dc"/>
 </div>
 
 <p align="center">
@@ -63,5 +63,5 @@
 <br>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0f2027,50:2c5364,100:0f2027&height=100&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:0f2027&height=100&section=footer"/>
 </div>
