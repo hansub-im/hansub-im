@@ -72,3 +72,6 @@ jobs:
           git add -A .
           git commit -m "generate profile 3d contribution" || exit 0
           git push
+
+### 🧱 3D Contribution
+![3D Contribution](./profile-3d-contrib/profile-green-animate.svg)
